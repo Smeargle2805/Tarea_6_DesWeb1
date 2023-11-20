@@ -38,10 +38,3 @@ values
 
 
 SELECT * FROM tbl_users;
-
-create table tbl_example 
-(
-    id serial primary key, 
-    data_example varchar(200),
-    user_name varchar(500)
-)
