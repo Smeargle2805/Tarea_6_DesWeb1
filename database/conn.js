@@ -15,7 +15,7 @@ db.connect()
     .then(
         ()=>{
 
-            console.log("Conexion Exitosa de Postgres");
+            console.log("Conexion Exitosa");
         }
     )
     .catch( (err)=>{
